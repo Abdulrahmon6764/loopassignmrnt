@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    //// while loop: loops through a block of code as long specifield condition is true
+// synthax for while loop
+// while(condition){
+//     code
+// }
+let i = 0;
+let resul = '';
+while(i < 20){
+    resul += 'odds' + i + '\n'
+    i++
+}
+console.log(resul);
+const dlor = [22,10,50,89]
+let k = 0;
+let mads = Infinity
+
+while(k < dlor.length ){
+    if(mads > dlor[k]){
+        mads = dlor[k]
+    }
+    k++
+}
+console.log(mads);
+
+
+let min = Infinity
+for(let i = 0; i < dlor.length; i++){
+    if(min > dlor[i]){
+        min = dlor[i]
+    }
+}
+console.log(min);
+/// Do while loop is the variant of while loop.This loop will execute the code block
+// once before checking if the condition is true. then it will repeat the loop as long the
+// condition is true
+//synthax
+// do{
+//     code to be executed
+// }
+// while(condition)
+
+const loss = [20,30,40];
+let r = 0;
+let pt = ''
+do{
+    pt += r + '\n'
+    r++; 
+   
+}
+while(r <10)
+console.log(pt);
+
+
+
+
+
+
+</script>    
+</body>
+</html>

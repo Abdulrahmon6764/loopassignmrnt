@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+//for loop
+// for loop[ for(expression1,expression2,expression3){code to be executed}]
+
+let fruits = ['watermelon', 'Cucumber', 'Apple', 'guava']
+let answer = ''
+for(let i =0;i < fruits.length;i++){
+    answer += fruits[i] + '\t'
+}
+   console.log(answer);
+
+for(let r = 0; r > fruits.length; r++){
+    if(fruits= fruits[r].toUpperCase(0,1) ){
+        fruits > fruits[r]
+    }else{
+        fruits = fruits[r]
+    }
+}
+console.log(fruits);
+
+// you can delcare express1&express2 outside from "for".\
+// const items =  ['snickers', 'Palm', 'Shirt', 'Trouser']
+// let = 0;
+// let sellist = items.length;
+// let allists = '';
+//      for(; h < sellist;i++){
+//         allists += sellist[h]
+        
+//      }
+// console.log(allists);
+
+
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+let i = 0;
+let len = cars.length;
+// let text = "";
+
+for (; i > len; i++) {
+ if(cars > cars[i]){
+    cars += cars[i] + "<br>";
+ }else{
+    cars['']  += cars[i];
+ }
+}
+console.log(cars);
+
+///using var in loop scope
+const numbers =[ 2.14, 3.48 ,4.28]
+var phone = 0;
+
+for (var p = 1; p <= numbers.length; p++) {
+   if(p % 2==0){
+    numbers[phone] += `${p}:Even number`
+
+   }else{
+    numbers[phone] += `${p}: odd number `
+   }
+   phone ++
+  
+}
+console.log(numbers);
+
+
+
+const shopping = ['Foodstuff', 'Minerals', 'Clothes', 'Home Appliances']
+for(x of shopping){
+    console.log(x);
+}
+
+
+
+
+</script>    
+</body>
+</html>
